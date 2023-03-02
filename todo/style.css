@@ -1,0 +1,119 @@
+.container {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  .task-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .task-list ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .task-list li {
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .task-list li.completed {
+    text-decoration: line-through;
+  }
+  body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://images.unsplash.com/photo-1606784840986-26620d4ec48e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1920&h=1080&fit=crop&ixid=eyJhcHBfaWQiOjF9');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+  
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+    transition: border-bottom-color 0.2s ease-in-out;
+  }
+  
+  input[type="text"]:focus {
+    border-bottom-color: #007bff;
+    outline: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  .completed-tasks {
+    margin-top: 20px;
+  }
+  
+  .completed-tasks h2 {
+    margin-bottom: 10px;
+  }
+  
+  .pending-tasks {
+    margin-top: 20px;
+  }
+  
+  .pending-tasks h2 {
+    margin-bottom: 10px;
+  }  
